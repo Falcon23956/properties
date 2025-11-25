@@ -1,7 +1,7 @@
 
 import properties from '../../src/data/properties.json'
 import PropertyCard from '../../components/PropertyCard'
-export default function Properties(){
+export default function Properties(): JSX.Element {
   return (
     <div className="container" style={{paddingTop:24}}>
       <h1>Properties</h1>
