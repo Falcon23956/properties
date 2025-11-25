@@ -1,0 +1,1 @@
+export default function Blog(){return <main className='container' style={{paddingTop:24}}><h1>Blog</h1></main>}

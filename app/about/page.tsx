@@ -1,0 +1,1 @@
+export default function About(){return <main className='container' style={{paddingTop:24}}><h1>About Crestvista Properties LTD</h1><p>Where Value Meets Excellence.</p></main>}

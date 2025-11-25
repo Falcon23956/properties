@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Prime Residential Plot in Juja",
+    "location": "Juja, Kiambu",
+    "price": "KES 3,600,000",
+    "summary": "Spacious, serviced residential plot ideal for building a dream home.",
+    "image": "/blank-property.png"
+  },
+  {
+    "id": "2",
+    "title": "Commercial Property on Thika Road",
+    "location": "Kasarani, Nairobi",
+    "price": "KES 17,500,000",
+    "summary": "Strategically located commercial space, ideal for offices or retail.",
+    "image": "/blank-property.png"
+  },
+  {
+    "id": "3",
+    "title": "Gated Townhouses in Ruiru",
+    "location": "Ruiru, Kiambu",
+    "price": "KES 12,750,000",
+    "summary": "Modern, secure townhouses offering premium amenities.",
+    "image": "/blank-property.png"
+  }
+]

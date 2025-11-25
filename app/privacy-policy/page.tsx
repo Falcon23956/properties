@@ -1,0 +1,1 @@
+export default function Privacy(){return <main className='container' style={{paddingTop:24}}><h1>Privacy Policy</h1></main>}
