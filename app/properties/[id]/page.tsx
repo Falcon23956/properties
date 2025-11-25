@@ -1,6 +1,8 @@
 
 import properties from '../../../src/data/properties.json'
-export default function PropertyPage({params}) {
+export default function PropertyPage(
+  { params }: { params: { id: string } }
+) {
   const prop = properties.find(p=>p.id===params.id);
   if(!prop) return <div className="container">Property not found</div>;
   return (
