@@ -3,7 +3,8 @@
 import {useState} from 'react';
 export default function Contact(){
   const [s,setS]=useState({name:'',email:'',message:'',status:''});
-  async function submit(e){
+  async function submit(e: React.FormEvent<HTMLFormElement>) {
+
     e.preventDefault();
     setS({...s,status:'sending'});
     const res = await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body: JSON.stringify({name:s.name,email:s.email,message:s.message})});
